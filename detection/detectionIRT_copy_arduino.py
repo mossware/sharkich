@@ -10,7 +10,7 @@ from collections import deque
 model_filename = r"your_trained_model.pkl"
 loaded_model = joblib.load(model_filename)
 
-arduino = serial.Serial(port='COM4', baudrate=115200, timeout=1)
+arduino = serial.Serial(port='COM4', baudrate=115200, timeout=1) #make sure u chose the correct port
 
 duration = 3  
 sampling_rate = 22050  
