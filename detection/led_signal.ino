@@ -1,7 +1,7 @@
 const int redPin = 11;
 const int greenPin = 10;
 const int bluePin = 9;
-
+//using rgb led module KY-016
 int detectionState = 0;  // 0 = no drone, 1 = some detection, 2 = consistent detection
 
 void setup() {
