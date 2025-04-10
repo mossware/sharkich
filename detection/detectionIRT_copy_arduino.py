@@ -7,7 +7,7 @@ import noisereduce as nr
 import serial
 from collections import deque
 
-model_filename = r"C:\Users\bansh\OneDrive\Рабочий стол\audio detection\sharkich final\sharkichAI_updated_three_classes.pkl"
+model_filename = r"your_trained_model.pkl"
 loaded_model = joblib.load(model_filename)
 
 arduino = serial.Serial(port='COM4', baudrate=115200, timeout=1)
